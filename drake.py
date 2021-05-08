@@ -23,5 +23,5 @@ for i in range (0,10): #change the number of loops
 
     with open('drake.csv', 'a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(result)
+        writer.writerow(result).
 
